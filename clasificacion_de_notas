@@ -1,0 +1,12 @@
+nota = (int(input("igresa tu nota")))
+if      18 <= nota <= 20:
+    print("!excelente!")
+elif    15 <= nota <= 17:
+    print("buenaaaa!")
+elif    10 <= nota <=14:
+    print("puedes mejorar")
+elif 0 <= nota <= 9 :
+    print("eres el burro de sherk")
+else :
+    print("nota no valido")
+    
