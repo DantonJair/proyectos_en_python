@@ -1,0 +1,13 @@
+edad  = (int(input(" ingresa tu edad ")))
+if      0 <= edad <=5:
+    print("eres un infante")
+elif    6 <= edad <= 12:
+    print("eres un niño")
+elif    13 <= edad <= 17:
+    print("eres un adolecente")
+elif    18 <= edad <= 30:
+    print("eres un joven")
+elif    31 <= edad <= 59:
+    print("eres un adulto")
+else :
+    print("eres un anciano")
