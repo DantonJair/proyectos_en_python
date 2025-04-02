@@ -1,0 +1,12 @@
+gasto = (int(input("ingrese su monto de compra")))
+if      1000 <= gasto <= 10 ** 6   :
+    print ("con tu descuento  de 10% pagaras:")
+    print(round(gasto-(gasto * 0.10)))
+elif     500 <= gasto <= 1000  :
+    print ("con tu descuento  de 5% pagaras:")
+    print(round(gasto-(gasto * 0.05)))
+else : 
+    0 <= gasto <= 500
+    print(int(input("no hay descuento")))
+
+    
