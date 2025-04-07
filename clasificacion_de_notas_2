@@ -1,0 +1,11 @@
+nota = (int(input("ingrese su nota")))
+if      90 <= nota <=100 :
+    print("sacaste una A")
+elif    80 <= nota <= 89 :
+    print("sacaste una B")
+elif    70 <= nota <= 79 :
+    print("sacaste una C")
+elif    60 <= nota <= 69 :
+    print("sacaste una D")
+else :
+    print("sacaste una F ")
